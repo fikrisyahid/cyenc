@@ -1,7 +1,7 @@
 function _reorderStringIndexWrap(
   frontIndex: number,
   backIndex: number,
-  inputLength: number // Ubah parameter string jadi length aja biar efisien
+  inputLength: number
 ) {
   let fIdx = frontIndex;
   let bIdx = backIndex;
